@@ -11,6 +11,10 @@ Kredi kartı işlem verileri üzerinde Lojistik Regresyon modeli eğitilerek sah
 - Scikit-learn (Makine Öğrenmesi)
 - SciPy.Stats (İstatistiksel Testler)
 - Matplotlib & Seaborn (Görselleştirme)
+- 
+## Veri Seti
+Bu projede kullanılan veri setine Kaggle üzerinden erişebilirsiniz:
+[Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ## Nasıl Çalıştırılır?
 1. `requirements.txt` dosyasındaki kütüphaneleri yükleyin: `pip install -r requirements.txt`
