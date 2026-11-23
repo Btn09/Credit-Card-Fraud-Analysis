@@ -1,0 +1,56 @@
+{
+  "secilen_model": "XGBoost",
+  "esik": 0.94,
+  "inceleme_maliyeti": 5.0,
+  "test": {
+    "pr_auc": 0.7919,
+    "roc_auc": 0.9765,
+    "kesinlik": 0.9032,
+    "duyarlilik": 0.7467,
+    "f1": 0.8175
+  },
+  "test_pr_auc_95_aralik": [
+    0.6953,
+    0.871
+  ],
+  "test_duyarlilik_95_aralik": [
+    0.6447,
+    0.8395
+  ],
+  "test_fraud_sayisi": 75,
+  "test_isaretlenen_islem": 62,
+  "test_fraud_toplam_tutar": 7729.26,
+  "test_yakalanan_tutar": 4094.72,
+  "test_modelli_maliyet": 3944.54,
+  "test_net_kazanc": 3784.72,
+  "inceleme_maliyeti_analizi": [
+    {
+      "inceleme_maliyeti": 1,
+      "esik": 0.01,
+      "test_duyarlilik": 0.84,
+      "test_isaretlenen": 395,
+      "test_net_kazanc": 4973.23
+    },
+    {
+      "inceleme_maliyeti": 5,
+      "esik": 0.94,
+      "test_duyarlilik": 0.7466666666666667,
+      "test_isaretlenen": 62,
+      "test_net_kazanc": 3784.72
+    },
+    {
+      "inceleme_maliyeti": 10,
+      "esik": 0.94,
+      "test_duyarlilik": 0.7466666666666667,
+      "test_isaretlenen": 62,
+      "test_net_kazanc": 3474.7199999999993
+    },
+    {
+      "inceleme_maliyeti": 25,
+      "esik": 0.94,
+      "test_duyarlilik": 0.7466666666666667,
+      "test_isaretlenen": 62,
+      "test_net_kazanc": 2544.7199999999993
+    }
+  ]
+}

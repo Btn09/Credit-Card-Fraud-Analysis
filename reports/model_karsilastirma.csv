@@ -1,0 +1,6 @@
+model,dogrulama_pr_auc,test_pr_auc,egitim_suresi_sn
+XGBoost,0.7838,0.7919,1.7000
+Random Forest,0.7616,0.8215,14.1000
+Lojistik Regresyon,0.7570,0.7480,0.3000
+XGBoost + SMOTE,0.7481,0.7825,2.0000
+LightGBM,0.7416,0.7096,1.4000
